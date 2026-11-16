@@ -1,0 +1,12 @@
+# Keep this public repository limited to the notebooks, README, and its figures.
+# Local datasets, checkpoints, run outputs, and drafts stay untracked.
+/*
+!/.gitignore
+!/README.md
+!/mm-biometric-system-v2.ipynb
+!/mm-biometric-system-v3.ipynb
+!/assets/
+/assets/*
+!/assets/v2-test-overview.png
+!/assets/v3-test-overview.png
+!/assets/v3-operating-points.png
