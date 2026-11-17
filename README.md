@@ -7,11 +7,10 @@ Fingerprint and face verification with score-level fusion, using SOCOFing finger
 
 ## Run on Kaggle
 
-1. Import either notebook into Kaggle.
-2. Attach [SOCOFing](https://www.kaggle.com/datasets/ruizgara/socofing) and [LFW](https://www.kaggle.com/datasets/jessicali9530/lfw-dataset).
-3. Enable a T4 GPU and Internet access for package and pretrained-weight downloads.
-4. Review the configuration cell. Input paths are discovered automatically and can be overridden; use a new run name for a new experiment.
-5. Run all cells, save the executed notebook, and download the exported run archive.
+### Dataset
+[Socofing](https://www.kaggle.com/datasets/ruizgara/socofing) and [LFW](https://www.kaggle.com/datasets/jessicali9530/lfw-dataset).
+### GPU
+GPU: T4
 
 The notebooks install `facenet-pytorch==2.6.0` without replacing Kaggle's installed PyTorch, torchvision, or NumPy stack. No companion scripts, existing checkpoints, or project CSVs are needed. Fresh training runs may produce different checkpoints and metrics.
 
